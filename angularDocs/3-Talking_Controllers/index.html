@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Talking to Controllers</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.5/angular.min.js"></script>
+        <script src="app.js"></script>
+                <style>
+            .activeClass {
+                background-color: coral;
+            }
+        </style>
+    </head>
+    <body ng-app="coolApp" ng-controller="FunCtrl as fun">
+      <div entering="fun.start()">Hover over me for fun times</div>
+    </body>
+</html>

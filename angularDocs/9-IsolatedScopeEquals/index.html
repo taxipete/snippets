@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>9-IsolatedScopeEquals</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.5/angular.min.js"></script>
+        <script src="app.js"></script>
+
+    </head>
+<body>
+<div ng-app="drinkApp">
+  <div ng-controller="AppCtrl">
+
+    <input type="text" ng-model="ctrlFlavor"> <!-- Ctrl -->
+    <div drink flavor="ctrlFlavor"></div>     <!-- Dir -->
+
+  </div>
+</div>
+</body>
+</html>
